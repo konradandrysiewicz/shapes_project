@@ -3,6 +3,7 @@
 #include <cstdlib>
 #include <conio.h>
 #include "menu.h"
+#include "shape.h"
 
 
 void showMenu()
@@ -20,37 +21,53 @@ void showMenu()
 }
 void choiceMenu()
 {
+    Shape *wsk;
     char choice;
     choice=getch();
     switch(choice)
     {
     case '1':
         {
-        std::cout << "KWADRAT" << std::endl;
+        Square sq;
+        wsk = &sq;
+        wsk -> loadData();
+        wsk -> getArea();
         }
     break;
 
     case '2':
         {
-        std::cout << "PROSTOK¥T" << std::endl;
+        Rectangle rec;
+        wsk = &rec;
+        wsk -> loadData();
+        wsk -> getArea();
         }
     break;
 
     case '3':
         {
-        std::cout << "TROJKAT" << std::endl;
+        Triangle tr;
+        wsk = &tr;
+        wsk -> loadData();
+        wsk -> getArea();
         }
         break;
 
     case '4':
         {
-        std::cout << "KOLO" << std::endl;
+        Circle cir;
+        wsk = &cir;
+        wsk -> loadData();
+        wsk -> getArea();
         }
         break;
 
     case '5':
         {
-        std::cout << "TRAPEZ" << std::endl;
+        Trapezium trap;
+        wsk = &trap;
+        wsk -> loadData();
+        wsk -> getArea();
         }
         break;
 

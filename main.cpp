@@ -5,7 +5,6 @@
 
 int main()
 {
-
     for(;;)
     {
     showMenu();
@@ -15,5 +14,4 @@ int main()
     system("cls");
     }
     return 0;
-
 }
