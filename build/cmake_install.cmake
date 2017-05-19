@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Konrad/Desktop/shapes_project22
+# Install script for directory: C:/Users/Konrad/Desktop/shapes_project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Konrad/Desktop/shapes_project22/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Konrad/Desktop/shapes_project/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

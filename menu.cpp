@@ -4,6 +4,11 @@
 #include <conio.h>
 #include "menu.h"
 #include "shape.h"
+#include "square.h"
+#include "rectangle.h"
+#include "triangle.h"
+#include "circle.h"
+#include "trapezium.h"
 
 
 void showMenu()

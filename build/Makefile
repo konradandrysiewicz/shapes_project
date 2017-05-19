@@ -47,10 +47,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Konrad\Desktop\shapes_project22
+CMAKE_SOURCE_DIR = C:\Users\Konrad\Desktop\shapes_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Konrad\Desktop\shapes_project22\build
+CMAKE_BINARY_DIR = C:\Users\Konrad\Desktop\shapes_project\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Konrad\Desktop\shapes_project22\build\CMakeFiles C:\Users\Konrad\Desktop\shapes_project22\build\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Konrad\Desktop\shapes_project\build\CMakeFiles C:\Users\Konrad\Desktop\shapes_project\build\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Konrad\Desktop\shapes_project22\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Konrad\Desktop\shapes_project\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -121,6 +121,33 @@ Program: cmake_check_build_system
 Program/fast:
 	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/build
 .PHONY : Program/fast
+
+circle.obj: circle.cpp.obj
+
+.PHONY : circle.obj
+
+# target to build an object file
+circle.cpp.obj:
+	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/circle.cpp.obj
+.PHONY : circle.cpp.obj
+
+circle.i: circle.cpp.i
+
+.PHONY : circle.i
+
+# target to preprocess a source file
+circle.cpp.i:
+	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/circle.cpp.i
+.PHONY : circle.cpp.i
+
+circle.s: circle.cpp.s
+
+.PHONY : circle.s
+
+# target to generate assembly for a file
+circle.cpp.s:
+	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/circle.cpp.s
+.PHONY : circle.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -176,32 +203,113 @@ menu.cpp.s:
 	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/menu.cpp.s
 .PHONY : menu.cpp.s
 
-shape.obj: shape.cpp.obj
+rectangle.obj: rectangle.cpp.obj
 
-.PHONY : shape.obj
+.PHONY : rectangle.obj
 
 # target to build an object file
-shape.cpp.obj:
-	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/shape.cpp.obj
-.PHONY : shape.cpp.obj
+rectangle.cpp.obj:
+	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/rectangle.cpp.obj
+.PHONY : rectangle.cpp.obj
 
-shape.i: shape.cpp.i
+rectangle.i: rectangle.cpp.i
 
-.PHONY : shape.i
+.PHONY : rectangle.i
 
 # target to preprocess a source file
-shape.cpp.i:
-	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/shape.cpp.i
-.PHONY : shape.cpp.i
+rectangle.cpp.i:
+	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/rectangle.cpp.i
+.PHONY : rectangle.cpp.i
 
-shape.s: shape.cpp.s
+rectangle.s: rectangle.cpp.s
 
-.PHONY : shape.s
+.PHONY : rectangle.s
 
 # target to generate assembly for a file
-shape.cpp.s:
-	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/shape.cpp.s
-.PHONY : shape.cpp.s
+rectangle.cpp.s:
+	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/rectangle.cpp.s
+.PHONY : rectangle.cpp.s
+
+square.obj: square.cpp.obj
+
+.PHONY : square.obj
+
+# target to build an object file
+square.cpp.obj:
+	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/square.cpp.obj
+.PHONY : square.cpp.obj
+
+square.i: square.cpp.i
+
+.PHONY : square.i
+
+# target to preprocess a source file
+square.cpp.i:
+	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/square.cpp.i
+.PHONY : square.cpp.i
+
+square.s: square.cpp.s
+
+.PHONY : square.s
+
+# target to generate assembly for a file
+square.cpp.s:
+	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/square.cpp.s
+.PHONY : square.cpp.s
+
+trapezium.obj: trapezium.cpp.obj
+
+.PHONY : trapezium.obj
+
+# target to build an object file
+trapezium.cpp.obj:
+	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/trapezium.cpp.obj
+.PHONY : trapezium.cpp.obj
+
+trapezium.i: trapezium.cpp.i
+
+.PHONY : trapezium.i
+
+# target to preprocess a source file
+trapezium.cpp.i:
+	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/trapezium.cpp.i
+.PHONY : trapezium.cpp.i
+
+trapezium.s: trapezium.cpp.s
+
+.PHONY : trapezium.s
+
+# target to generate assembly for a file
+trapezium.cpp.s:
+	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/trapezium.cpp.s
+.PHONY : trapezium.cpp.s
+
+triangle.obj: triangle.cpp.obj
+
+.PHONY : triangle.obj
+
+# target to build an object file
+triangle.cpp.obj:
+	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/triangle.cpp.obj
+.PHONY : triangle.cpp.obj
+
+triangle.i: triangle.cpp.i
+
+.PHONY : triangle.i
+
+# target to preprocess a source file
+triangle.cpp.i:
+	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/triangle.cpp.i
+.PHONY : triangle.cpp.i
+
+triangle.s: triangle.cpp.s
+
+.PHONY : triangle.s
+
+# target to generate assembly for a file
+triangle.cpp.s:
+	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/triangle.cpp.s
+.PHONY : triangle.cpp.s
 
 # Help Target
 help:
@@ -212,15 +320,27 @@ help:
 	@echo ... Program
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... circle.obj
+	@echo ... circle.i
+	@echo ... circle.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
 	@echo ... menu.obj
 	@echo ... menu.i
 	@echo ... menu.s
-	@echo ... shape.obj
-	@echo ... shape.i
-	@echo ... shape.s
+	@echo ... rectangle.obj
+	@echo ... rectangle.i
+	@echo ... rectangle.s
+	@echo ... square.obj
+	@echo ... square.i
+	@echo ... square.s
+	@echo ... trapezium.obj
+	@echo ... trapezium.i
+	@echo ... trapezium.s
+	@echo ... triangle.obj
+	@echo ... triangle.i
+	@echo ... triangle.s
 .PHONY : help
 
 

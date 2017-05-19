@@ -4,9 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Konrad/Desktop/shapes_project22/main.cpp" "C:/Users/Konrad/Desktop/shapes_project22/build/CMakeFiles/Program.dir/main.cpp.obj"
-  "C:/Users/Konrad/Desktop/shapes_project22/menu.cpp" "C:/Users/Konrad/Desktop/shapes_project22/build/CMakeFiles/Program.dir/menu.cpp.obj"
-  "C:/Users/Konrad/Desktop/shapes_project22/shape.cpp" "C:/Users/Konrad/Desktop/shapes_project22/build/CMakeFiles/Program.dir/shape.cpp.obj"
+  "C:/Users/Konrad/Desktop/shapes_project/circle.cpp" "C:/Users/Konrad/Desktop/shapes_project/build/CMakeFiles/Program.dir/circle.cpp.obj"
+  "C:/Users/Konrad/Desktop/shapes_project/main.cpp" "C:/Users/Konrad/Desktop/shapes_project/build/CMakeFiles/Program.dir/main.cpp.obj"
+  "C:/Users/Konrad/Desktop/shapes_project/menu.cpp" "C:/Users/Konrad/Desktop/shapes_project/build/CMakeFiles/Program.dir/menu.cpp.obj"
+  "C:/Users/Konrad/Desktop/shapes_project/rectangle.cpp" "C:/Users/Konrad/Desktop/shapes_project/build/CMakeFiles/Program.dir/rectangle.cpp.obj"
+  "C:/Users/Konrad/Desktop/shapes_project/square.cpp" "C:/Users/Konrad/Desktop/shapes_project/build/CMakeFiles/Program.dir/square.cpp.obj"
+  "C:/Users/Konrad/Desktop/shapes_project/trapezium.cpp" "C:/Users/Konrad/Desktop/shapes_project/build/CMakeFiles/Program.dir/trapezium.cpp.obj"
+  "C:/Users/Konrad/Desktop/shapes_project/triangle.cpp" "C:/Users/Konrad/Desktop/shapes_project/build/CMakeFiles/Program.dir/triangle.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

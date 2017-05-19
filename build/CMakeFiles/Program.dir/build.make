@@ -42,10 +42,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Konrad\Desktop\shapes_project22
+CMAKE_SOURCE_DIR = C:\Users\Konrad\Desktop\shapes_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Konrad\Desktop\shapes_project22\build
+CMAKE_BINARY_DIR = C:\Users\Konrad\Desktop\shapes_project\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Program.dir/depend.make
@@ -58,16 +58,16 @@ include CMakeFiles/Program.dir/flags.make
 
 CMakeFiles/Program.dir/main.cpp.obj: CMakeFiles/Program.dir/flags.make
 CMakeFiles/Program.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Konrad\Desktop\shapes_project22\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Program.dir/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Program.dir\main.cpp.obj -c C:\Users\Konrad\Desktop\shapes_project22\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Konrad\Desktop\shapes_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Program.dir/main.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Program.dir\main.cpp.obj -c C:\Users\Konrad\Desktop\shapes_project\main.cpp
 
 CMakeFiles/Program.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program.dir/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Konrad\Desktop\shapes_project22\main.cpp > CMakeFiles\Program.dir\main.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Konrad\Desktop\shapes_project\main.cpp > CMakeFiles\Program.dir\main.cpp.i
 
 CMakeFiles/Program.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program.dir/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Konrad\Desktop\shapes_project22\main.cpp -o CMakeFiles\Program.dir\main.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Konrad\Desktop\shapes_project\main.cpp -o CMakeFiles\Program.dir\main.cpp.s
 
 CMakeFiles/Program.dir/main.cpp.obj.requires:
 
@@ -82,16 +82,16 @@ CMakeFiles/Program.dir/main.cpp.obj.provides.build: CMakeFiles/Program.dir/main.
 
 CMakeFiles/Program.dir/menu.cpp.obj: CMakeFiles/Program.dir/flags.make
 CMakeFiles/Program.dir/menu.cpp.obj: ../menu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Konrad\Desktop\shapes_project22\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Program.dir/menu.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Program.dir\menu.cpp.obj -c C:\Users\Konrad\Desktop\shapes_project22\menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Konrad\Desktop\shapes_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Program.dir/menu.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Program.dir\menu.cpp.obj -c C:\Users\Konrad\Desktop\shapes_project\menu.cpp
 
 CMakeFiles/Program.dir/menu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program.dir/menu.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Konrad\Desktop\shapes_project22\menu.cpp > CMakeFiles\Program.dir\menu.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Konrad\Desktop\shapes_project\menu.cpp > CMakeFiles\Program.dir\menu.cpp.i
 
 CMakeFiles/Program.dir/menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program.dir/menu.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Konrad\Desktop\shapes_project22\menu.cpp -o CMakeFiles\Program.dir\menu.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Konrad\Desktop\shapes_project\menu.cpp -o CMakeFiles\Program.dir\menu.cpp.s
 
 CMakeFiles/Program.dir/menu.cpp.obj.requires:
 
@@ -104,47 +104,151 @@ CMakeFiles/Program.dir/menu.cpp.obj.provides: CMakeFiles/Program.dir/menu.cpp.ob
 CMakeFiles/Program.dir/menu.cpp.obj.provides.build: CMakeFiles/Program.dir/menu.cpp.obj
 
 
-CMakeFiles/Program.dir/shape.cpp.obj: CMakeFiles/Program.dir/flags.make
-CMakeFiles/Program.dir/shape.cpp.obj: ../shape.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Konrad\Desktop\shapes_project22\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Program.dir/shape.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Program.dir\shape.cpp.obj -c C:\Users\Konrad\Desktop\shapes_project22\shape.cpp
+CMakeFiles/Program.dir/square.cpp.obj: CMakeFiles/Program.dir/flags.make
+CMakeFiles/Program.dir/square.cpp.obj: ../square.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Konrad\Desktop\shapes_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Program.dir/square.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Program.dir\square.cpp.obj -c C:\Users\Konrad\Desktop\shapes_project\square.cpp
 
-CMakeFiles/Program.dir/shape.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program.dir/shape.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Konrad\Desktop\shapes_project22\shape.cpp > CMakeFiles\Program.dir\shape.cpp.i
+CMakeFiles/Program.dir/square.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program.dir/square.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Konrad\Desktop\shapes_project\square.cpp > CMakeFiles\Program.dir\square.cpp.i
 
-CMakeFiles/Program.dir/shape.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program.dir/shape.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Konrad\Desktop\shapes_project22\shape.cpp -o CMakeFiles\Program.dir\shape.cpp.s
+CMakeFiles/Program.dir/square.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program.dir/square.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Konrad\Desktop\shapes_project\square.cpp -o CMakeFiles\Program.dir\square.cpp.s
 
-CMakeFiles/Program.dir/shape.cpp.obj.requires:
+CMakeFiles/Program.dir/square.cpp.obj.requires:
 
-.PHONY : CMakeFiles/Program.dir/shape.cpp.obj.requires
+.PHONY : CMakeFiles/Program.dir/square.cpp.obj.requires
 
-CMakeFiles/Program.dir/shape.cpp.obj.provides: CMakeFiles/Program.dir/shape.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/shape.cpp.obj.provides.build
-.PHONY : CMakeFiles/Program.dir/shape.cpp.obj.provides
+CMakeFiles/Program.dir/square.cpp.obj.provides: CMakeFiles/Program.dir/square.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/square.cpp.obj.provides.build
+.PHONY : CMakeFiles/Program.dir/square.cpp.obj.provides
 
-CMakeFiles/Program.dir/shape.cpp.obj.provides.build: CMakeFiles/Program.dir/shape.cpp.obj
+CMakeFiles/Program.dir/square.cpp.obj.provides.build: CMakeFiles/Program.dir/square.cpp.obj
+
+
+CMakeFiles/Program.dir/rectangle.cpp.obj: CMakeFiles/Program.dir/flags.make
+CMakeFiles/Program.dir/rectangle.cpp.obj: ../rectangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Konrad\Desktop\shapes_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Program.dir/rectangle.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Program.dir\rectangle.cpp.obj -c C:\Users\Konrad\Desktop\shapes_project\rectangle.cpp
+
+CMakeFiles/Program.dir/rectangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program.dir/rectangle.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Konrad\Desktop\shapes_project\rectangle.cpp > CMakeFiles\Program.dir\rectangle.cpp.i
+
+CMakeFiles/Program.dir/rectangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program.dir/rectangle.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Konrad\Desktop\shapes_project\rectangle.cpp -o CMakeFiles\Program.dir\rectangle.cpp.s
+
+CMakeFiles/Program.dir/rectangle.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Program.dir/rectangle.cpp.obj.requires
+
+CMakeFiles/Program.dir/rectangle.cpp.obj.provides: CMakeFiles/Program.dir/rectangle.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/rectangle.cpp.obj.provides.build
+.PHONY : CMakeFiles/Program.dir/rectangle.cpp.obj.provides
+
+CMakeFiles/Program.dir/rectangle.cpp.obj.provides.build: CMakeFiles/Program.dir/rectangle.cpp.obj
+
+
+CMakeFiles/Program.dir/triangle.cpp.obj: CMakeFiles/Program.dir/flags.make
+CMakeFiles/Program.dir/triangle.cpp.obj: ../triangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Konrad\Desktop\shapes_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Program.dir/triangle.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Program.dir\triangle.cpp.obj -c C:\Users\Konrad\Desktop\shapes_project\triangle.cpp
+
+CMakeFiles/Program.dir/triangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program.dir/triangle.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Konrad\Desktop\shapes_project\triangle.cpp > CMakeFiles\Program.dir\triangle.cpp.i
+
+CMakeFiles/Program.dir/triangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program.dir/triangle.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Konrad\Desktop\shapes_project\triangle.cpp -o CMakeFiles\Program.dir\triangle.cpp.s
+
+CMakeFiles/Program.dir/triangle.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Program.dir/triangle.cpp.obj.requires
+
+CMakeFiles/Program.dir/triangle.cpp.obj.provides: CMakeFiles/Program.dir/triangle.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/triangle.cpp.obj.provides.build
+.PHONY : CMakeFiles/Program.dir/triangle.cpp.obj.provides
+
+CMakeFiles/Program.dir/triangle.cpp.obj.provides.build: CMakeFiles/Program.dir/triangle.cpp.obj
+
+
+CMakeFiles/Program.dir/circle.cpp.obj: CMakeFiles/Program.dir/flags.make
+CMakeFiles/Program.dir/circle.cpp.obj: ../circle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Konrad\Desktop\shapes_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Program.dir/circle.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Program.dir\circle.cpp.obj -c C:\Users\Konrad\Desktop\shapes_project\circle.cpp
+
+CMakeFiles/Program.dir/circle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program.dir/circle.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Konrad\Desktop\shapes_project\circle.cpp > CMakeFiles\Program.dir\circle.cpp.i
+
+CMakeFiles/Program.dir/circle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program.dir/circle.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Konrad\Desktop\shapes_project\circle.cpp -o CMakeFiles\Program.dir\circle.cpp.s
+
+CMakeFiles/Program.dir/circle.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Program.dir/circle.cpp.obj.requires
+
+CMakeFiles/Program.dir/circle.cpp.obj.provides: CMakeFiles/Program.dir/circle.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/circle.cpp.obj.provides.build
+.PHONY : CMakeFiles/Program.dir/circle.cpp.obj.provides
+
+CMakeFiles/Program.dir/circle.cpp.obj.provides.build: CMakeFiles/Program.dir/circle.cpp.obj
+
+
+CMakeFiles/Program.dir/trapezium.cpp.obj: CMakeFiles/Program.dir/flags.make
+CMakeFiles/Program.dir/trapezium.cpp.obj: ../trapezium.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Konrad\Desktop\shapes_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Program.dir/trapezium.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Program.dir\trapezium.cpp.obj -c C:\Users\Konrad\Desktop\shapes_project\trapezium.cpp
+
+CMakeFiles/Program.dir/trapezium.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program.dir/trapezium.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Konrad\Desktop\shapes_project\trapezium.cpp > CMakeFiles\Program.dir\trapezium.cpp.i
+
+CMakeFiles/Program.dir/trapezium.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program.dir/trapezium.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Konrad\Desktop\shapes_project\trapezium.cpp -o CMakeFiles\Program.dir\trapezium.cpp.s
+
+CMakeFiles/Program.dir/trapezium.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Program.dir/trapezium.cpp.obj.requires
+
+CMakeFiles/Program.dir/trapezium.cpp.obj.provides: CMakeFiles/Program.dir/trapezium.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/trapezium.cpp.obj.provides.build
+.PHONY : CMakeFiles/Program.dir/trapezium.cpp.obj.provides
+
+CMakeFiles/Program.dir/trapezium.cpp.obj.provides.build: CMakeFiles/Program.dir/trapezium.cpp.obj
 
 
 # Object files for target Program
 Program_OBJECTS = \
 "CMakeFiles/Program.dir/main.cpp.obj" \
 "CMakeFiles/Program.dir/menu.cpp.obj" \
-"CMakeFiles/Program.dir/shape.cpp.obj"
+"CMakeFiles/Program.dir/square.cpp.obj" \
+"CMakeFiles/Program.dir/rectangle.cpp.obj" \
+"CMakeFiles/Program.dir/triangle.cpp.obj" \
+"CMakeFiles/Program.dir/circle.cpp.obj" \
+"CMakeFiles/Program.dir/trapezium.cpp.obj"
 
 # External object files for target Program
 Program_EXTERNAL_OBJECTS =
 
 Program.exe: CMakeFiles/Program.dir/main.cpp.obj
 Program.exe: CMakeFiles/Program.dir/menu.cpp.obj
-Program.exe: CMakeFiles/Program.dir/shape.cpp.obj
+Program.exe: CMakeFiles/Program.dir/square.cpp.obj
+Program.exe: CMakeFiles/Program.dir/rectangle.cpp.obj
+Program.exe: CMakeFiles/Program.dir/triangle.cpp.obj
+Program.exe: CMakeFiles/Program.dir/circle.cpp.obj
+Program.exe: CMakeFiles/Program.dir/trapezium.cpp.obj
 Program.exe: CMakeFiles/Program.dir/build.make
 Program.exe: CMakeFiles/Program.dir/linklibs.rsp
 Program.exe: CMakeFiles/Program.dir/objects1.rsp
 Program.exe: CMakeFiles/Program.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Konrad\Desktop\shapes_project22\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Program.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Konrad\Desktop\shapes_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Program.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Program.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,7 +258,11 @@ CMakeFiles/Program.dir/build: Program.exe
 
 CMakeFiles/Program.dir/requires: CMakeFiles/Program.dir/main.cpp.obj.requires
 CMakeFiles/Program.dir/requires: CMakeFiles/Program.dir/menu.cpp.obj.requires
-CMakeFiles/Program.dir/requires: CMakeFiles/Program.dir/shape.cpp.obj.requires
+CMakeFiles/Program.dir/requires: CMakeFiles/Program.dir/square.cpp.obj.requires
+CMakeFiles/Program.dir/requires: CMakeFiles/Program.dir/rectangle.cpp.obj.requires
+CMakeFiles/Program.dir/requires: CMakeFiles/Program.dir/triangle.cpp.obj.requires
+CMakeFiles/Program.dir/requires: CMakeFiles/Program.dir/circle.cpp.obj.requires
+CMakeFiles/Program.dir/requires: CMakeFiles/Program.dir/trapezium.cpp.obj.requires
 
 .PHONY : CMakeFiles/Program.dir/requires
 
@@ -163,6 +271,6 @@ CMakeFiles/Program.dir/clean:
 .PHONY : CMakeFiles/Program.dir/clean
 
 CMakeFiles/Program.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Konrad\Desktop\shapes_project22 C:\Users\Konrad\Desktop\shapes_project22 C:\Users\Konrad\Desktop\shapes_project22\build C:\Users\Konrad\Desktop\shapes_project22\build C:\Users\Konrad\Desktop\shapes_project22\build\CMakeFiles\Program.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Konrad\Desktop\shapes_project C:\Users\Konrad\Desktop\shapes_project C:\Users\Konrad\Desktop\shapes_project\build C:\Users\Konrad\Desktop\shapes_project\build C:\Users\Konrad\Desktop\shapes_project\build\CMakeFiles\Program.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Program.dir/depend
 

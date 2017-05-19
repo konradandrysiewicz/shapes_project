@@ -1,7 +1,11 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Program.dir/main.cpp.obj"
   "CMakeFiles/Program.dir/menu.cpp.obj"
-  "CMakeFiles/Program.dir/shape.cpp.obj"
+  "CMakeFiles/Program.dir/square.cpp.obj"
+  "CMakeFiles/Program.dir/rectangle.cpp.obj"
+  "CMakeFiles/Program.dir/triangle.cpp.obj"
+  "CMakeFiles/Program.dir/circle.cpp.obj"
+  "CMakeFiles/Program.dir/trapezium.cpp.obj"
   "Program.pdb"
   "Program.exe"
   "Program.exe.manifest"
