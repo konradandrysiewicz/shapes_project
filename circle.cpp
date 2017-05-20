@@ -22,9 +22,9 @@ void Circle::loadData()
     }
 }
 
-void Circle::getArea()
+float Circle::getArea()
 {
-    std::cout << "Pole kola wynosi: " << M_PI * r * r << std::endl;
+    return M_PI * r * r;
 }
 
 Circle::~Circle()

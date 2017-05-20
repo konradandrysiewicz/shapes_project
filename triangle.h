@@ -9,7 +9,7 @@ public:
     Triangle(float=1, float=1);
     ~Triangle();
     void loadData();
-    void getArea();
+    float getArea();
 };
 
 #endif

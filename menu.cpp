@@ -36,7 +36,7 @@ void choiceMenu()
         Square sq;
         wsk = &sq;
         wsk -> loadData();
-        wsk -> getArea();
+        std::cout << "Pole kwadratu wynosi: " << wsk -> getArea();
         }
     break;
 
@@ -45,7 +45,7 @@ void choiceMenu()
         Rectangle rec;
         wsk = &rec;
         wsk -> loadData();
-        wsk -> getArea();
+        std::cout << "Pole prostokata wynosi: " << wsk -> getArea();
         }
     break;
 
@@ -54,7 +54,7 @@ void choiceMenu()
         Triangle tr;
         wsk = &tr;
         wsk -> loadData();
-        wsk -> getArea();
+        std::cout << "Pole trojkata wynosi: " << wsk -> getArea();
         }
         break;
 
@@ -63,7 +63,7 @@ void choiceMenu()
         Circle cir;
         wsk = &cir;
         wsk -> loadData();
-        wsk -> getArea();
+        std::cout << "Pole kola wynosi: " << wsk -> getArea();
         }
         break;
 
@@ -72,7 +72,7 @@ void choiceMenu()
         Trapezium trap;
         wsk = &trap;
         wsk -> loadData();
-        wsk -> getArea();
+        std::cout << "Pole trapezu wynosi: " << wsk -> getArea();
         }
         break;
 

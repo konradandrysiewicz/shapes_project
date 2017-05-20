@@ -8,7 +8,7 @@ public:
     Square(float=1);
     ~Square();
     void loadData();
-    void getArea();
+    float getArea();
 };
 
 #endif

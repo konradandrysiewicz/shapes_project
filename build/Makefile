@@ -122,6 +122,19 @@ Program/fast:
 	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/build
 .PHONY : Program/fast
 
+#=============================================================================
+# Target rules for targets named Test
+
+# Build rule for target.
+Test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Test
+.PHONY : Test
+
+# fast build rule for target.
+Test/fast:
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/build
+.PHONY : Test/fast
+
 circle.obj: circle.cpp.obj
 
 .PHONY : circle.obj
@@ -129,6 +142,7 @@ circle.obj: circle.cpp.obj
 # target to build an object file
 circle.cpp.obj:
 	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/circle.cpp.obj
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/circle.cpp.obj
 .PHONY : circle.cpp.obj
 
 circle.i: circle.cpp.i
@@ -138,6 +152,7 @@ circle.i: circle.cpp.i
 # target to preprocess a source file
 circle.cpp.i:
 	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/circle.cpp.i
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/circle.cpp.i
 .PHONY : circle.cpp.i
 
 circle.s: circle.cpp.s
@@ -147,6 +162,7 @@ circle.s: circle.cpp.s
 # target to generate assembly for a file
 circle.cpp.s:
 	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/circle.cpp.s
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/circle.cpp.s
 .PHONY : circle.cpp.s
 
 main.obj: main.cpp.obj
@@ -176,6 +192,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+main_test.obj: main_test.cpp.obj
+
+.PHONY : main_test.obj
+
+# target to build an object file
+main_test.cpp.obj:
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/main_test.cpp.obj
+.PHONY : main_test.cpp.obj
+
+main_test.i: main_test.cpp.i
+
+.PHONY : main_test.i
+
+# target to preprocess a source file
+main_test.cpp.i:
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/main_test.cpp.i
+.PHONY : main_test.cpp.i
+
+main_test.s: main_test.cpp.s
+
+.PHONY : main_test.s
+
+# target to generate assembly for a file
+main_test.cpp.s:
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/main_test.cpp.s
+.PHONY : main_test.cpp.s
+
 menu.obj: menu.cpp.obj
 
 .PHONY : menu.obj
@@ -183,6 +226,7 @@ menu.obj: menu.cpp.obj
 # target to build an object file
 menu.cpp.obj:
 	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/menu.cpp.obj
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/menu.cpp.obj
 .PHONY : menu.cpp.obj
 
 menu.i: menu.cpp.i
@@ -192,6 +236,7 @@ menu.i: menu.cpp.i
 # target to preprocess a source file
 menu.cpp.i:
 	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/menu.cpp.i
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/menu.cpp.i
 .PHONY : menu.cpp.i
 
 menu.s: menu.cpp.s
@@ -201,6 +246,7 @@ menu.s: menu.cpp.s
 # target to generate assembly for a file
 menu.cpp.s:
 	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/menu.cpp.s
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/menu.cpp.s
 .PHONY : menu.cpp.s
 
 rectangle.obj: rectangle.cpp.obj
@@ -210,6 +256,7 @@ rectangle.obj: rectangle.cpp.obj
 # target to build an object file
 rectangle.cpp.obj:
 	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/rectangle.cpp.obj
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/rectangle.cpp.obj
 .PHONY : rectangle.cpp.obj
 
 rectangle.i: rectangle.cpp.i
@@ -219,6 +266,7 @@ rectangle.i: rectangle.cpp.i
 # target to preprocess a source file
 rectangle.cpp.i:
 	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/rectangle.cpp.i
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/rectangle.cpp.i
 .PHONY : rectangle.cpp.i
 
 rectangle.s: rectangle.cpp.s
@@ -228,6 +276,7 @@ rectangle.s: rectangle.cpp.s
 # target to generate assembly for a file
 rectangle.cpp.s:
 	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/rectangle.cpp.s
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/rectangle.cpp.s
 .PHONY : rectangle.cpp.s
 
 square.obj: square.cpp.obj
@@ -237,6 +286,7 @@ square.obj: square.cpp.obj
 # target to build an object file
 square.cpp.obj:
 	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/square.cpp.obj
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/square.cpp.obj
 .PHONY : square.cpp.obj
 
 square.i: square.cpp.i
@@ -246,6 +296,7 @@ square.i: square.cpp.i
 # target to preprocess a source file
 square.cpp.i:
 	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/square.cpp.i
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/square.cpp.i
 .PHONY : square.cpp.i
 
 square.s: square.cpp.s
@@ -255,7 +306,35 @@ square.s: square.cpp.s
 # target to generate assembly for a file
 square.cpp.s:
 	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/square.cpp.s
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/square.cpp.s
 .PHONY : square.cpp.s
+
+test.obj: test.cpp.obj
+
+.PHONY : test.obj
+
+# target to build an object file
+test.cpp.obj:
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/test.cpp.obj
+.PHONY : test.cpp.obj
+
+test.i: test.cpp.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/test.cpp.s
+.PHONY : test.cpp.s
 
 trapezium.obj: trapezium.cpp.obj
 
@@ -264,6 +343,7 @@ trapezium.obj: trapezium.cpp.obj
 # target to build an object file
 trapezium.cpp.obj:
 	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/trapezium.cpp.obj
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/trapezium.cpp.obj
 .PHONY : trapezium.cpp.obj
 
 trapezium.i: trapezium.cpp.i
@@ -273,6 +353,7 @@ trapezium.i: trapezium.cpp.i
 # target to preprocess a source file
 trapezium.cpp.i:
 	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/trapezium.cpp.i
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/trapezium.cpp.i
 .PHONY : trapezium.cpp.i
 
 trapezium.s: trapezium.cpp.s
@@ -282,6 +363,7 @@ trapezium.s: trapezium.cpp.s
 # target to generate assembly for a file
 trapezium.cpp.s:
 	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/trapezium.cpp.s
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/trapezium.cpp.s
 .PHONY : trapezium.cpp.s
 
 triangle.obj: triangle.cpp.obj
@@ -291,6 +373,7 @@ triangle.obj: triangle.cpp.obj
 # target to build an object file
 triangle.cpp.obj:
 	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/triangle.cpp.obj
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/triangle.cpp.obj
 .PHONY : triangle.cpp.obj
 
 triangle.i: triangle.cpp.i
@@ -300,6 +383,7 @@ triangle.i: triangle.cpp.i
 # target to preprocess a source file
 triangle.cpp.i:
 	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/triangle.cpp.i
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/triangle.cpp.i
 .PHONY : triangle.cpp.i
 
 triangle.s: triangle.cpp.s
@@ -309,6 +393,7 @@ triangle.s: triangle.cpp.s
 # target to generate assembly for a file
 triangle.cpp.s:
 	$(MAKE) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/triangle.cpp.s
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/triangle.cpp.s
 .PHONY : triangle.cpp.s
 
 # Help Target
@@ -318,6 +403,7 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... Program
+	@echo ... Test
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... circle.obj
@@ -326,6 +412,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... main_test.obj
+	@echo ... main_test.i
+	@echo ... main_test.s
 	@echo ... menu.obj
 	@echo ... menu.i
 	@echo ... menu.s
@@ -335,6 +424,9 @@ help:
 	@echo ... square.obj
 	@echo ... square.i
 	@echo ... square.s
+	@echo ... test.obj
+	@echo ... test.i
+	@echo ... test.s
 	@echo ... trapezium.obj
 	@echo ... trapezium.i
 	@echo ... trapezium.s

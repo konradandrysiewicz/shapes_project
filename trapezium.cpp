@@ -46,9 +46,9 @@ void Trapezium::loadData()
     }
 }
 
-void Trapezium::getArea()
+float Trapezium::getArea()
 {
-    std::cout << "Pole trapezu wynosi " << ((a+b)*0.5)*h << std::endl;
+    return ((a+b)*0.5)*h;
 }
 
 Trapezium::~Trapezium()

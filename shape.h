@@ -5,7 +5,7 @@ class Shape
 {
 public:
     virtual ~Shape(){}
-    virtual void getArea()=0;
+    virtual float getArea()=0;
     virtual void loadData()=0;
 
 };

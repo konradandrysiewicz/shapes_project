@@ -33,9 +33,9 @@ void Rectangle::loadData()
 
 }
 
-void Rectangle::getArea()
+float Rectangle::getArea()
 {
-    std::cout << "Pole prostokata wynosi: " << a*b << std::endl;
+    return a*b;
 }
 
 Rectangle::~Rectangle()

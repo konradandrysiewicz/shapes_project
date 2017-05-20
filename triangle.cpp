@@ -33,9 +33,9 @@ void Triangle::loadData()
 
 }
 
-void Triangle::getArea()
+float Triangle::getArea()
 {
-    std::cout << "Pole trojkata wynosi: " << ((0.5) * a  * h) << std::endl;
+    return ((0.5) * a  * h);
 }
 
 

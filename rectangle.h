@@ -9,7 +9,7 @@ public:
     Rectangle(float=1, float=1);
     ~Rectangle();
     void loadData();
-    void getArea();
+    float getArea();
 };
 
 #endif

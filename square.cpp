@@ -21,9 +21,9 @@ void Square::loadData()
     }
 }
 
-void Square::getArea()
+float Square::getArea()
 {
-    std::cout << "Pole kwadratu wynosi: " << a*a << std::endl;
+    return a*a;
 }
 
 

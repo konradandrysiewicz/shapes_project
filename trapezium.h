@@ -10,7 +10,7 @@ public:
     Trapezium(float=1, float=1, float=1);
     ~Trapezium();
     void loadData();
-    void getArea();
+    float getArea();
 };
 
 #endif

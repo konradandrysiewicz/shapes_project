@@ -8,7 +8,7 @@ public:
     Circle(float=1);
     ~Circle();
     void loadData();
-    void getArea();
+    float getArea();
 };
 
 #endif
