@@ -34,7 +34,7 @@ void check_rectangle_incorrect()
 {
     std::cout << "-------------------" << std::endl << "TEST OF INCORRECT DATA RECTANGLE" << std::endl;
     Rectangle temp(2,5);
-    if(6 == temp.getArea())
+    if(10 != temp.getArea())
          std::cout << "Test failed" << std::endl;
     else
         std::cout <<"Test passed" << std::endl;

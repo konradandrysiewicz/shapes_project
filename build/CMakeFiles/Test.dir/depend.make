@@ -26,6 +26,7 @@ CMakeFiles/Test.dir/square.cpp.obj: ../square.cpp
 CMakeFiles/Test.dir/square.cpp.obj: ../square.h
 
 CMakeFiles/Test.dir/test.cpp.obj: ../circle.h
+CMakeFiles/Test.dir/test.cpp.obj: ../menu.h
 CMakeFiles/Test.dir/test.cpp.obj: ../rectangle.h
 CMakeFiles/Test.dir/test.cpp.obj: ../shape.h
 CMakeFiles/Test.dir/test.cpp.obj: ../square.h
